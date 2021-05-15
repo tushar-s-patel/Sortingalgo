@@ -1,6 +1,31 @@
 package sort;
 
 public class Shell_sort {
+/* 	Shell sort is a highly efficient sorting algorithm and is based on insertion sort algorithm. 
+*	This algorithm avoids large shifts as in case of insertion sort, if the smaller value is to
+*	the far right and has to be moved to the far left.
+
+/* This algorithm uses insertion sort on a widely spread elements, first to sort them and then sorts the less widely spaced elements.
+	This spacing is termed as interval. This interval is calculated based on Knuth's formula as −
+
+
+// Knuth's Formula
+// h = h * 3 + 1
+// where −
+//    h is interval with initial value 1
+*/
+	/*
+	Algorithm
+
+	Following is the algorithm for shell sort.
+
+	Step 1 − Initialize the value of h
+	Step 2 − Divide the list into smaller sub-list of equal interval h
+	Step 3 − Sort these sub-lists using insertion sort
+	Step 3 − Repeat until complete list is sorted
+
+	*/
+
 	public static void main(String args[]) {
 		int arr[]= {35,33,42,10,14,19,27,44};
 		for(int e:arr) {
