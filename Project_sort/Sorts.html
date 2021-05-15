@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sorting Visualizer</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="nav">
+		<div id="nav1">
+			<input type="range" oninput="rangefun1()" name="value" min="1" max="120" value="10" class="slider" id="range" >
+			<span>Element <span id="size"></span></span>
+
+			<input type="range" oninput="rangefun2()" name="speed" min="1" max="100" value="10" class="slider" id="speed" >
+			<span>Speed <span id="setspeed"></span></span>
+		</div>
+
+		<div id="nav2">
+			<div id="sortname">
+				<button id="bubble" type="button" onclick="enablebubblesort()"> Bubble_Sort </button>
+				<button id="selection" type="button" onclick="enableselectionsort()"> Selection_Sort </button>
+				<button id="insertion" type="button" onclick="enableshellsort()"> Shell_Sort </button>
+				<button id="merge" type="button" onclick="enablemergesort()"> Merge_Sort </button>
+				<button id="quick" type="button" onclick="enablequicksort()"> Quick_Sort </button>
+
+			</div>
+			<div id="start">
+				<button id= "sortbutton" type="button"  > Start </button>
+				<button id= "relodebutton" type="button" onclick="rel()"  > Reset </button>
+			</div>
+		</div>
+	</div>
+	<div id="containt">
+		<div id="container">
+		
+		</div>
+		<div id="entries">
+			<span id="name"></span>
+			<p id="about"></p>
+			<a id="link" target="_blank"></a>
+			<p><span id="best"></span><br>
+			<span id="worst"></span><br>
+			<span id="average"></span><br><br>
+			<span id="swap"></span>  <span id="swaps"></span>
+			</p>
+		</div>
+		
+	</div>
+
+
+	
+	<script src="bubblescript.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+	<script src="controls.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+	<script src="selectionscript.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+	<script src="mergescript.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+	<script src="quickscript.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+	<script src="shellscript.js" type="text/javascript" charset="utf-8" async defer>
+	</script>
+</body>
+</html>
