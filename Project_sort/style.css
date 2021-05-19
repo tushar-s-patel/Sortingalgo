@@ -68,11 +68,10 @@ div{
 
 #about,#swap{
 	color: white;
-	font-size:1rem;
 }
 	
 #best,#worst,#average{
-	font-size: 1rem; 
+	/* font-size: 1.1rem; */
 }
 #swap,#swaps{
 
@@ -307,8 +306,13 @@ span{
 			font-size: 1rem;
 			
 			}
+			#sortname button:hover{
+				transform: scale(1);
+			text-shadow: 0px 0px 15px white;
+			}
 			.slider{
-				margin-top:1rem; 
+				margin-top:1rem;
+				width: 50%;
 			}	
 
 			#sortname{
@@ -330,3 +334,18 @@ span{
 				width: 100vw;
 			}
 		}
+@media only screen and (orientation:landscape){
+ 		 .nav{
+				flex-direction: column;
+				height: 50vh;
+			}
+			#nav1{
+				height: 40%;
+				width: 100vw;
+			}
+			#nav2{
+				height: 60%;
+				width: 100vw;
+			}
+
+}
