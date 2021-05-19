@@ -336,3 +336,22 @@ span{
 				width: 100vw;
 			}
 		}
+@media (max-height: 500px){
+            .nav{
+				flex-direction: column;
+				height: 50vh;
+			}
+			#nav1{
+				flex-direction: row;
+				height: 40%;
+				width: 100vw;
+			}
+			#nav2{
+				height: 60%;
+				width: 100vw;
+			}
+			.slider {
+   				margin-top: 0rem;
+    			width: 29%;
+			}
+}
