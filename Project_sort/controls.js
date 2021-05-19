@@ -13,7 +13,7 @@ function rel(){
 function rangefun1(){
 	
 	range=document.getElementById("range").value;
-	console.log(range);
+	//console.log(range);
 	document.getElementById("size").innerHTML=range;
 	document.getElementById("container").innerHTML='';
 	arr.length=range;
@@ -33,7 +33,7 @@ function rangefun2(){
 	document.getElementById("setspeed").innerHTML=speed;
 	speed*=10;
 	speed=1000-speed;
-	console.log(speed);
+	//console.log(speed);
 }
 
 function mydiv(height,id) {

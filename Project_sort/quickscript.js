@@ -73,7 +73,7 @@ async function Quicksort(arr,l,h){
 	if(l<h){
 
 		let j= await partition(arr,l,h);
-		console.log("j= "+j);
+		//console.log("j= "+j);
 		await Quicksort(arr,l,j-1);
 		await Quicksort(arr,j+1,h);
 	}
