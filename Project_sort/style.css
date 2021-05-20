@@ -339,11 +339,11 @@ span{
 @media (max-height: 500px){
             .nav{
 				flex-direction: column;
-				height: 50vh;
+				height: 53vh;
 			}
 			#nav1{
 				flex-direction: row;
-				height: 40%;
+				height: 35%;
 				width: 100vw;
 			}
 			#nav2{
