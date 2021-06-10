@@ -38,7 +38,7 @@ async function ssort(arr,range){
 			 let d1= document.getElementById("d"+(j+1));
 			 d1.style.backgroundColor="yellow";
 			 await new Promise(resolve => setTimeout(resolve ,speed));
-			//console.log(i+" "+j);
+			
 			if(arr[s_i]>arr[j]){
 				s_i=j;
 			}
