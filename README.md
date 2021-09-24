@@ -14,6 +14,6 @@ if we slow down the Sorting process speed You can do that thing too with the opt
 >- [Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
 
 I append a link there for more information about that sorting process
-[You can visit page](https://tushar-s-patel.github.io/VisualizeSorting.github.io/Project_sort/)
+***[You can visit page](https://tushar-s-patel.github.io/VisualizeSorting.github.io/Project_sort/)***
 the page is responsive to all screen size
 
